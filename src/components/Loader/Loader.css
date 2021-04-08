@@ -1,0 +1,22 @@
+.loader-text {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.resizer {
+  text-align: center;
+  width: 50px;
+}
+
+.loader {
+  width: 100%;
+}
+
+.fade {
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  background-image: linear-gradient(#111111, #333333);
+  opacity: 0.3;
+}
