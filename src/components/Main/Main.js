@@ -9,7 +9,7 @@ import Loader from "../Loader/Loader";
 export default function Main() {
   const [cat, setCat] = useState("armour");
   const { data, loading } = useFetch(
-    `https://api.poe.watch/get?category=${cat}&league=Ritual`
+    `https://api.poe.watch/get?category=${cat}&league=Standard`
   );
   const index = 1;
 

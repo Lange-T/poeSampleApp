@@ -29,7 +29,7 @@ export default function ContentTable(props) {
   useEffect(() => {
     setPageIndex(1);
     setSorted(true);
-  }, [props]);
+  }, []);
 
   //Function that reverses an array
   const sort = (obj) => {
